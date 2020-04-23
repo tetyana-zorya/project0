@@ -3,13 +3,12 @@ header {
   width: 100%;
   height: 70px;
   padding: 20px 20px 20px 20px;
+  position: fixed;
 }
 #navigation {
   background: hsla(243, 41%, 11%, 1);
 }
-#sslogo {
-  width: 25%;
-}
+
 ul {
   text-align: justify;
   padding: 0px 0px 10px 0px;
@@ -32,10 +31,22 @@ a {
   font-weight: 200;
 }
 a:hover {
-  color: #73c7e6;
+  color: #3582b9;
   text-decoration: none;
 }
 
+#logo {
+  text-align: justify;
+  color: white;
+  font-size: 24px;
+  padding: 0px 10px 0px 20px;
+  font-weight: 400;
+}
+
+#logo:hover {
+  color: #3582b9;
+  text-decoration: none;
+}
 body {
   background-color: #121129;
   text-align: center;
@@ -43,7 +54,7 @@ body {
 
 div {
   position: relative;
-  top: 50px;
+  top: 140px;
   color: white;
   display: inline-block;
 }
@@ -54,7 +65,6 @@ h2 {
   margin-right: auto;
   font-size: 35px;
   line-height: 1.5;
-  margin-top:20px;
 }
 
 @media screen and (max-width: 750px){
@@ -70,14 +80,13 @@ h2 {
 }
 
 .impcolor {
-  color: #73c7e6;
+  color: #3582b9;
 }
 #graphic {
   width:100%;
   height: auto;
   position: relative;
-  top: 25px;
-  margin-bottom: 30px;
+  top: 160px;
 
 }
 @media screen and (max-width: 650px) {
@@ -100,25 +109,23 @@ h2 {
   text-align: center;
   padding:0px 0px 0px 0px;
   postion: relative;
-  top: 45px;
-  margin-bottom: 10px;
-  color: #73c7e6;
+  top: 170px;
+  color: #3582b9;
 }
 p {
   padding: 30px 0px 10px 0px;
 }
 button {
-  position: relative;
-  top: 60px;
-  border: 2px solid;
+  border: 2px solid white;
   background-color: transparent;
+  color: white;
   width: 20%;
-  height:auto;
-  padding: 10px 0px 10px 0px;
+  height: auto;
+  padding:15px 0px 15px 0px;
 }
 button:hover {
-  color: #faa93b;
-  border: 2px solid #faa93b;
+  border: 2px solid #f6b845;
+    color: #f6b845;
 }
 #About {
   position: static;
@@ -128,9 +135,9 @@ button:hover {
   font-weight: 200;
 
 }
-#Demos {
+#Demo {
   position: relative;
-  top: 90px;
+  top: -90px;
   color: #121129;
   font-weight: 200;
   text-align: center;
@@ -141,8 +148,7 @@ button:hover {
   top: 220px;
   background-color: white;
   width: 100%;
-  height: 1800px;
-  margin-bottom:80px;
+  height: 900px;
 }
 article {
   text-align: center;
@@ -163,28 +169,12 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
 }
-
+form {
+  display:inline-block;
+}
 #demotitle {
   position: relative;
   color: #121129;
-  top: -80px;
-  text-align: center;}
-#purpose {
-  position: relative;
-  top: 50px;
-  margin-bottom: 50px;
-}
-footer {
-  position: relative;
-  bottom: 0px;
-  height: 180px;
-  background: hsla(243, 41%, 11%, 1);
-  color: white;
-  font-family: serif;}
-#footerlist {
+  top: 20px;
   text-align: center;
-  font-size: 15px;
-}
-#footerlist > li {
-  display: block;
 }
